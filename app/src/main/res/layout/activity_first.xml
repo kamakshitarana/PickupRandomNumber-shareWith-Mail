@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:textSize="34dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Your Lucky Number IS: " />
+
+    <TextView
+        android:id="@+id/textNumber"
+        android:layout_width="wrap_content"
+        android:textColor="#535050"
+        android:textSize="74dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:text="307 " />
+
+    <Button
+        android:id="@+id/btnShareMyNumber"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Share My Lucky Number"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
